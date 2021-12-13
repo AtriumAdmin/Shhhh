@@ -212,7 +212,7 @@ elseif get_hidden_gui then EzHub.EzHub.Parent = get_hidden_gui(); end
 
 do
 
-	EzHub.EzHub.Name = "AtriumHub"
+	EzHub.EzHub.Name = "Atrium Hub"
 	EzHub.EzHub.Parent = game.CoreGui
 
 	EzHub.MainFrame.Name = "MainFrame"
@@ -244,13 +244,13 @@ do
 	EzHub.CloseNavButton.Image = "http://www.roblox.com/asset/?id=5969992570"
 
 	EzHub.TextLabel.Parent = EzHub.TopFrame
-	EzHub.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	AtriEzHubum.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	EzHub.TextLabel.BackgroundTransparency = 1.000
 	EzHub.TextLabel.Position = UDim2.new(0.857142866, 0, 0.0294117667, 0)
 	EzHub.TextLabel.Size = UDim2.new(0, 58, 0, 31)
 	EzHub.TextLabel.ZIndex = 4
 	EzHub.TextLabel.Font = Enum.Font.SourceSans
-	EzHub.TextLabel.Text = "Ez Hub"
+	EzHub.TextLabel.Text = "Atrium Hub"
 	EzHub.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 	EzHub.TextLabel.TextSize = 20.000
 
