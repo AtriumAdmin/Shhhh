@@ -57,7 +57,7 @@ local EzLauncher = {
 
 --Properties:
 
-EzLauncher.EzLauncher.Name = "Atrium Launcher"
+EzLauncher.EzLauncher.Name = "AtriumLauncher"
 EzLauncher.EzLauncher.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 EzLauncher.EzLauncher.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -490,9 +490,9 @@ end
 --------------------------------------------------------------------
 -- Apply the launcher data: Status
 
-EzLauncher.EzHubStatusFrame.Status.Text = statusData["Atrium"];
-EzLauncher.EzAPIStatusFrame.Status.Text = statusData["Atrium API"];
-EzLauncher.EzLauncherStatusFrame.Status.Text = statusData["Atrium Launcher"];
+EzLauncher.EzHubStatusFrame.Status.Text = statusData["AtriumHub"];
+EzLauncher.EzAPIStatusFrame.Status.Text = statusData["AtriumAPI"];
+EzLauncher.EzLauncherStatusFrame.Status.Text = statusData["AtriumLauncher"];
 
 if EzLauncher.EzHubStatusFrame.Status.Text == "Offline" then
 	EzLauncher.EzHubStatusFrame.Status.TextColor3 = Color3.fromRGB(192, 49, 52)
@@ -546,9 +546,17 @@ EzLauncher.SelectionLeft.MouseButton1Click:Connect(function()
 	updateSelectedTheme();
 end)
 
+--------------------------------------------------------------------
+-- Apply the launcher data: latest version
 
+-- List of accouonts that can launch Ez Hub regardless of the status
+-- Note that the status is just to prevent users from executing Ez Hub when it is in testing/broken stages
+-- Therefore there is no need for any type of secure whitelist
 local allowedOverrideUsers = {
-	3077897595
+	3077897595,
+  419875084,
+  581401336
+
 }
 
 EzLauncher.Launch.MouseButton1Click:Connect(function()
