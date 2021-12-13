@@ -7,7 +7,7 @@
         [5, "13/12: Atrium Has Been Released!"]
     ],
     "StatusData": {
-        "Atrium Hub": "Online",
+        "Atrium": "Online",
         "Atrium API": "Online",
         "Atrium Launcher": "Online"
     },
