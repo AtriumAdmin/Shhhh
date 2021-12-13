@@ -7,9 +7,9 @@
         [5, "13/12: Atrium Has Been Released!"]
     ],
     "StatusData": {
-        "Atrium": "Online",
-        "Atrium API": "Online",
-        "Atrium Launcher": "Online"
+        "AtriumHub": "Online",
+        "AtriumAPI": "Online",
+        "AtriumLauncher": "Online"
     },
     "LatestVersion": "https://raw.githubusercontent.com/AtriumAdmin/Shhhh/main/main.lua",
     "Themes": {
