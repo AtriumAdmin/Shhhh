@@ -11,7 +11,7 @@
         "Atrium API": "Online",
         "Atrium Launcher": "Online"
     },
-    "LatestVersion": "https://raw.githubusercontent.com/AtriumAdmin/scripts/main/idk.lua",
+    "LatestVersion": "https://raw.githubusercontent.com/AtriumAdmin/Shhhh/main/main.lua",
     "Themes": {
         "Default": {
             "ThemeIndex": 1,
