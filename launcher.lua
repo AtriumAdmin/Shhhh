@@ -57,7 +57,7 @@ local EzLauncher = {
 
 --Properties:
 
-EzLauncher.EzLauncher.Name = "EzLauncher"
+EzLauncher.EzLauncher.Name = "Atrium Launcher"
 EzLauncher.EzLauncher.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 EzLauncher.EzLauncher.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
