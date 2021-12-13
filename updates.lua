@@ -1,11 +1,15 @@
 {
     "NewsData": [
-        [1, "Atrium is finally released!"]
+        [1, "Release!"],
+        [2, "Release!"],
+        [3, "Release!"],
+        [4, "@DIVIDER"],
+        [5, "13/12: Atrium Has Been Released!"]
     ],
     "StatusData": {
-        "Atrium": "Offline",
-        "Atrium API": "Offline",
-        "Atrium Launcher": "Offline"
+        "Atrium Hub": "Online",
+        "Atrium API": "Online",
+        "Atrium Launcher": "Online"
     },
     "LatestVersion": "https://raw.githubusercontent.com/AtriumAdmin/scripts/main/idk.lua",
     "Themes": {
@@ -16,7 +20,7 @@
             "Tertiary": [28, 41, 56],
             "Quaternary": [18, 98, 159],
             "ScrollBarColor": [14, 21, 30],
-	    "DefaultTextColor": [255, 255, 255]
+        "DefaultTextColor": [255, 255, 255]
         },
         "Dark": {
             "ThemeIndex": 2,
@@ -25,7 +29,7 @@
             "Tertiary": [35, 35, 35],
             "Quaternary": [40, 40, 40],
             "ScrollBarColor": [14, 21, 30],
-	    "DefaultTextColor": [255, 255, 255]
+        "DefaultTextColor": [255, 255, 255]
         },
         "Black and Red": {
             "ThemeIndex": 3,
@@ -34,7 +38,7 @@
             "Tertiary": [35, 35, 35],
             "Quaternary": [190, 35, 35],
             "ScrollBarColor": [14, 21, 30],
-	    "DefaultTextColor": [240, 240, 240]
+        "DefaultTextColor": [240, 240, 240]
         },
         "Crepe Pink": {
             "ThemeIndex": 4,
@@ -43,7 +47,7 @@
             "Tertiary": [213, 127, 89],
             "Quaternary": [237, 169, 139],
             "ScrollBarColor": [14, 21, 30],
-	    "DefaultTextColor": [255, 255, 255]
+        "DefaultTextColor": [255, 255, 255]
         }
     }
 }
