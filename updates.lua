@@ -3,11 +3,11 @@
         [1, "Atrium is finally released!"]
     ],
     "StatusData": {
-        "Atrium": "Online",
-        "Atrium API": "Online",
-        "Atrium Launcher": "Online"
+        "Atrium": "Offline",
+        "Atrium API": "Offline",
+        "Atrium Launcher": "Offline"
     },
-    "LatestVersion": "https://raw.githubusercontent.com/AtriumAdmin/Shhhh/main/main.lua",
+    "LatestVersion": "https://raw.githubusercontent.com/AtriumAdmin/scripts/main/idk.lua",
     "Themes": {
         "Default": {
             "ThemeIndex": 1,
